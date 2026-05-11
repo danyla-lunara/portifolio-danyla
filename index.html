@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Danyla Lunara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h1>Sobre Mim</h1>
+        <p>Olá! Meu nome é Danyla Lunara, sou mineira e tenho 25 anos. </p>
+        <p>Desde criança sou apaixonada por computadores e tecnologia, então escolhi estudar Ciência da Computação.</p>
+        <p>Meu passa-tempo preferido é jogar jogos digitais (Baldur's Gate 3 é o melhor de todos!).</p>
+        <p>Sou uma dos milhares de entusiastas da astronomia!</p>
+        <p>Eu amo estudar línguas e um dos meus maiores sonhos é me tornar uma poliglota e aprender o máximo de línguas possíveis!</p>
+    </section>
+
+    <section id="formacao">
+        <h1>Formação</h1>
+        <ul>
+            <li><strong>Bacharelado em Ciência da Computação</strong> - UNINTER (Em andamento)</li>
+            <li><strong>Técnica em Estradas</strong> - CEFET-MG</li>
+            <li>Idiomas: Português (Nativo), Inglês (Avançado), Coreano (Básico).</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h1>Portfólio</h1>
+        <div class="projeto">
+            <h3>Meu GitHub</h3>
+            <a href="https://github.com/danyla-lunara" target="_blank">Ver GitHub</a>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h1>Contato</h1>
+        <form id="formContato">
+            <input type="text" id="nome" placeholder="Danyla Lunara" required>
+            <input type="email" id="email" placeholder="danyla.lunara01@gmail.com" required>
+            <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+        <div id="mensagemSucesso" style="display:none; color: green; font-weight: bold; margin-top: 10px;"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
